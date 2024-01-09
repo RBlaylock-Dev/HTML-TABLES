@@ -1,0 +1,44 @@
+.title {
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th {
+    font-size: 2em;
+}
+
+td {
+    border: 1px solid skyblue;
+    padding: 8px;
+    text-align: left;
+    height: 200px;
+    width: 200px;
+    vertical-align: top;
+    color:darkblue;
+    font-size: 2em;
+
+}
+
+td > p {
+    color: gold;
+}
+
+tr:nth-child(even) {
+    background: lightslategray;
+}
+
+tr:nth-child(odd) {
+    background: slategrey;
+}
+
+.day-two:hover::after {
+    content: "Surprise, I love you";
+    color: hotpink;
+}
