@@ -1,7 +1,17 @@
+body {
+    background-image: url(Images/winter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
 .title {
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
     padding: 1em;
+    -webkit-text-stroke: 4px;
+    -webkit-text-stroke-color: antiquewhite;
+    -webkit-text-fill-color: white;
+    
 }
 
 table {
@@ -21,7 +31,7 @@ td {
     height: 200px;
     width: 200px;
     vertical-align: top;
-    color:darkblue;
+    color: yellow;
     font-size: 2em;
 
 }
@@ -29,7 +39,7 @@ td {
 td > p {
     color: gold;
 }
-
+/*
 tr:nth-child(even) {
     background: lightslategray;
 }
@@ -37,7 +47,7 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background: slategrey;
 }
-
+*/
 .day-two:hover::after {
     content: "Surprise, I love you";
     color: hotpink;
